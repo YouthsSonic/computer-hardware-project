@@ -1,0 +1,51 @@
+h1 {
+	color:ffff00;
+	font-family:Copperplate;
+	font-size:40;
+	
+	text-align: center;
+}
+h3 {
+	color: ffff00;
+	font-family: Copperplate;
+	font-size:32;
+	
+	text-align: center;
+}
+p {
+	color:yellow;
+	background-color:blue;
+	font-size: 25;
+	font-family: Copperplate;
+	border:10px solid red;
+	text-align:center;
+	text-indent:0px;
+	word-wrap: break-word;
+	 margin: auto;
+  width: 25%;
+  padding: 10px;
+	
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+	
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+	
+	
+	
